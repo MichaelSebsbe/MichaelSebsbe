@@ -1,5 +1,6 @@
 - 👋 Hi, I’m @MichaelSebsbe
 michael.mulugeta2010@gmail.com
+iOS Developer
 
 <!---
 MichaelSebsbe/MichaelSebsbe is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
