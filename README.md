@@ -1,5 +1,5 @@
 - 👋 Hi, I’m @MichaelSebsbe
-michael.mulugeta2010@gmail.com
+MichaelSebsbe@gmail.com
 iOS Developer
 
 <!---
