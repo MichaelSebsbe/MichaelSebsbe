@@ -3,7 +3,7 @@
 **Full-stack Mobile & Web Developer**
 📍 Toronto, Canada
 
-I build scalable, production-ready mobile and web applications with a strong focus on **performance, developer experience, and real-world reliability**. My background spans **iOS, Android, backend services, and DevOps**, with hands-on experience shipping apps used in real businesses.
+I build scalable, production-ready mobile and web applications with a strong focus on **performance, developer experience, and real-world reliability**. My background spans **iOS, Android, backend services, and modern web tech**.
 
 ---
 
@@ -35,6 +35,18 @@ I build scalable, production-ready mobile and web applications with a strong foc
 ---
 
 ## 📌 Featured Projects
+
+### ✨ React Native Paper – ProgressBar Fix
+
+Merged into **[@callstack/react-native-paper](https://github.com/callstack/react-native-paper)** (popular React Native UI library).
+
+Fixed a visual bug where determinate `ProgressBar` fill border radius was scaled down at low progress values. Updated the animation approach to preserve rounded fill styles while maintaining native driver compatibility.
+
+* **Impact**: Improved visual consistency for thousands of app developers
+* **Tech**: TypeScript, React Native, Animation transforms
+* [View PR #4950](https://github.com/callstack/react-native-paper/pull/4950)
+
+---
 
 ### 🔄 React Native OTA Hot Update
 
@@ -80,7 +92,7 @@ A Python client library for interacting with an async notification service.
 
 ## 📈 Open Source & Activity
 
-* Active open-source contributor
+* Active open-source contributor with merged PRs in established projects
 * Consistent commits across public and private repositories
 * Focused on **bug fixes, edge cases, and production stability**
 * Pull requests with real-world impact
