@@ -36,29 +36,6 @@ I build scalable, production-ready mobile and web applications with a strong foc
 
 ## 📌 Featured Projects
 
-### ✨ React Native Paper – ProgressBar Fix
-
-Merged into **[@callstack/react-native-paper](https://github.com/callstack/react-native-paper)** (popular React Native UI library).
-
-Fixed a visual bug where determinate `ProgressBar` fill border radius was scaled down at low progress values. Updated the animation approach to preserve rounded fill styles while maintaining native driver compatibility.
-
-* **Impact**: Improved visual consistency for thousands of app developers
-* **Tech**: TypeScript, React Native, Animation transforms
-* [View PR #4950](https://github.com/callstack/react-native-paper/pull/4950)
-
----
-
-### 🔄 React Native OTA Hot Update
-
-Contributions to a React Native **over-the-air update system**, enabling app updates without store resubmission.
-Focused on **edge-case reliability**, including Android backup/restore scenarios.
-
-* TypeScript
-* Production-grade update handling
-* Real-world mobile constraints
-
----
-
 ### 📲 EasyPush
 
 A **Node.js push notification service** using **RabbitMQ** as a message broker.
@@ -90,9 +67,36 @@ A Python client library for interacting with an async notification service.
 
 ---
 
+## 🌟 Open Source Contributions
+
+### ✨ React Native Paper – ProgressBar Fix
+
+Merged into **[@callstack/react-native-paper](https://github.com/callstack/react-native-paper)** (popular React Native UI library).
+
+Fixed a visual bug where determinate `ProgressBar` fill border radius was scaled down at low progress values. Updated the animation approach to preserve rounded fill styles while maintaining native driver compatibility.
+
+* **Impact**: Improved visual consistency for thousands of app developers
+* **Tech**: TypeScript, React Native, Animation transforms
+* [View PR #4950](https://github.com/callstack/react-native-paper/pull/4950)
+
+---
+
+### 🔄 React Native OTA Hot Update – Bundle Fallback
+
+Merged into **[@vantuan88291/react-native-ota-hot-update](https://github.com/vantuan88291/react-native-ota-hot-update)** (production OTA update system).
+
+Fixed a critical crash on Samsung devices where SharedPreferences restoration after app reinstall caused startup failures. Implemented validation logic and graceful fallback to embedded bundle when stored paths are stale or missing.
+
+* **Impact**: Prevents production crashes in backup/restore scenarios
+* **Problem solved**: `JSBigFileString::fromPath - Could not open file` errors
+* **Tech**: Android, Java, SharedPreferences, edge-case reliability
+* [View PR #131](https://github.com/vantuan88291/react-native-ota-hot-update/pull/131)
+
+---
+
 ## 📈 Open Source & Activity
 
-* Active open-source contributor with merged PRs in established projects
+* Merged contributions in established open-source projects
 * Consistent commits across public and private repositories
 * Focused on **bug fixes, edge cases, and production stability**
 * Pull requests with real-world impact
